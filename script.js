@@ -25,12 +25,12 @@ noBtn.addEventListener('click', () => {
     message.textContent = messages[noClickCount - 1] || message.textContent;
   } else {
     noBtn.remove(); // Hayır butonunu kaldır
-    message.textContent = "O zaman Zorla affet başka seçenek kalmadı 😔";
+    message.textContent = "Aaaa affediyorsun gibiii 💖";
   }
 });
 
 yesBtn.addEventListener('click', () => {
-  message.textContent = "Teşekkürler Yavru 💖";
+  message.textContent = "Teşekkürler Beni affettiğin için Biliyordum affediceğini. 💖";
   yesBtn.remove();
   noBtn?.remove();
 });
